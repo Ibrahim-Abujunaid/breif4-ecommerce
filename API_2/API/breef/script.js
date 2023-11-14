@@ -124,7 +124,7 @@
     let loginButtonNav = document.getElementById('loginButtonNav');
 
     // Check if the user is logged in
-    const ADMIN=sessionStorage.getItem('ADMIN')
+    const ADMIN=sessionStorage.getItem('ADMIN');
     const isLoggedIn = sessionStorage.getItem('isLoggedin');
     let carticon = document.getElementById("carticon");
     if (isLoggedIn=='true'&&ADMIN==1){
